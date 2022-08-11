@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		529C043FD6021F37E3586E18 /* Pods_hw25.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC79DCDECD98DF72C32B075 /* Pods_hw25.framework */; };
+		AD88730A28A510010003AB16 /* MTG.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88730928A510010003AB16 /* MTG.swift */; };
+		AD88730C28A510330003AB16 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88730B28A510330003AB16 /* CardModel.swift */; };
+		AD88731028A510970003AB16 /* CardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88730F28A510970003AB16 /* CardsModel.swift */; };
+		AD88731228A511740003AB16 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88731128A511740003AB16 /* DetailViewController.swift */; };
+		AD88731428A511CE0003AB16 /* MtgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88731328A511CE0003AB16 /* MtgView.swift */; };
+		AD88731628A512330003AB16 /* MtgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88731528A512330003AB16 /* MtgTableViewCell.swift */; };
+		AD88731828A512B80003AB16 /* DetailMtgCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88731728A512B80003AB16 /* DetailMtgCardView.swift */; };
 		ADEE367628A1162F0064D13D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE367528A1162F0064D13D /* AppDelegate.swift */; };
 		ADEE367828A1162F0064D13D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE367728A1162F0064D13D /* SceneDelegate.swift */; };
 		ADEE367A28A1162F0064D13D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE367928A1162F0064D13D /* ViewController.swift */; };
@@ -20,6 +27,13 @@
 		35CBDBB47461B6182ADD369C /* Pods-hw25.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hw25.release.xcconfig"; path = "Target Support Files/Pods-hw25/Pods-hw25.release.xcconfig"; sourceTree = "<group>"; };
 		80647F7B1B669F5E29C0610F /* Pods-hw25.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hw25.debug.xcconfig"; path = "Target Support Files/Pods-hw25/Pods-hw25.debug.xcconfig"; sourceTree = "<group>"; };
 		9FC79DCDECD98DF72C32B075 /* Pods_hw25.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hw25.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD88730928A510010003AB16 /* MTG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG.swift; sourceTree = "<group>"; };
+		AD88730B28A510330003AB16 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		AD88730F28A510970003AB16 /* CardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsModel.swift; sourceTree = "<group>"; };
+		AD88731128A511740003AB16 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AD88731328A511CE0003AB16 /* MtgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MtgView.swift; sourceTree = "<group>"; };
+		AD88731528A512330003AB16 /* MtgTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MtgTableViewCell.swift; sourceTree = "<group>"; };
+		AD88731728A512B80003AB16 /* DetailMtgCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMtgCardView.swift; sourceTree = "<group>"; };
 		ADEE367228A1162F0064D13D /* hw25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw25.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEE367528A1162F0064D13D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADEE367728A1162F0064D13D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				ADEE367B28A1162F0064D13D /* Main.storyboard */,
+				AD88731328A511CE0003AB16 /* MtgView.swift */,
+				AD88731528A512330003AB16 /* MtgTableViewCell.swift */,
+				AD88731728A512B80003AB16 /* DetailMtgCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -101,6 +118,8 @@
 		AD88730628A2D7B80003AB16 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AD88730B28A510330003AB16 /* CardModel.swift */,
+				AD88730F28A510970003AB16 /* CardsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				ADEE367928A1162F0064D13D /* ViewController.swift */,
+				AD88731128A511740003AB16 /* DetailViewController.swift */,
 			);
 			name = Controller;
 			path = View;
@@ -117,6 +137,7 @@
 		AD88730828A2D8130003AB16 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				AD88730928A510010003AB16 /* MTG.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -271,9 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD88730A28A510010003AB16 /* MTG.swift in Sources */,
 				ADEE367A28A1162F0064D13D /* ViewController.swift in Sources */,
 				ADEE367628A1162F0064D13D /* AppDelegate.swift in Sources */,
+				AD88731428A511CE0003AB16 /* MtgView.swift in Sources */,
 				ADEE367828A1162F0064D13D /* SceneDelegate.swift in Sources */,
+				AD88731628A512330003AB16 /* MtgTableViewCell.swift in Sources */,
+				AD88731828A512B80003AB16 /* DetailMtgCardView.swift in Sources */,
+				AD88731028A510970003AB16 /* CardsModel.swift in Sources */,
+				AD88730C28A510330003AB16 /* CardModel.swift in Sources */,
+				AD88731228A511740003AB16 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
